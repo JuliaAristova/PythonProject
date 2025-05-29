@@ -48,3 +48,6 @@ passing_grades = [grade for grade in grades if grade >= 60]
 
 print(passing_grades)
 
+names = ['anna', 'brenda', 'tom']
+name_cap = [name.upper() for name in names]
+print(name_cap)

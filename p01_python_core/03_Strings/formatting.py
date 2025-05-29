@@ -13,6 +13,9 @@
 :,          = comma separator
 '''
 
+print(f"The price is ${2+3}")
+print(f"The price is ${(2+3):.2f}")
+
 price1 = 3000.12159
 price2 = -9870.65
 price3 = 1200.34
