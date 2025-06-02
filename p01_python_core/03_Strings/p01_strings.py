@@ -87,3 +87,14 @@ print(f"xxxx-xxxx-xxxx-{last_four}")
 # reverse string
 credit_number = credit_number[::-1]
 print(credit_number)
+
+# chaining
+
+name = "      spongebob squarepants     "
+name = name.strip().title()
+print(f"Hello, ", name)
+name_list = name.split(" ")
+print(f"Hello, {name_list[0]}")
+
+first, last = name.split(" ")
+print(f"Hello, {first}")

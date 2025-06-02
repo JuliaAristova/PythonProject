@@ -38,3 +38,14 @@ print(d, d2)
 print(e, e2)
 
 print(random.randrange(1,10))
+
+x = float(input("Enter first number: "))
+y = float(input("Enter second number: "))
+z = round(x+y)
+print(f"{z:,}")
+
+print(f"{(x + y):.0f}")
+
+d = round(x/y, 2)
+print(d)
+print(f"{(x/y):.2f}")

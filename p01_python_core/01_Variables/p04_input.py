@@ -6,7 +6,6 @@ if(input("Enter your name: ")):
 else:
     print("Empty")
 
-print("Tell me anything")
 anything = input()
 print("Hmm, anything is", anything)
 

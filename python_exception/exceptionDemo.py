@@ -16,6 +16,8 @@ except Exception:
     print("Something went wrong!")
 
 '''
+# print("hello, world)  - SyntaxError - must be fixed
+
 try:
     number = int(input("Enter a number (not 0): "))
     print(1/number)

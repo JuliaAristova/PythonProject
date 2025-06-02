@@ -1,0 +1,32 @@
+Here is a list of common exceptions in Python:
+
+SyntaxError: Raised when the code has syntax errors that violate the rules of the language.
+
+IndentationError: Raised when there are incorrect indentations in the code.
+
+NameError: Raised when a variable or function name is not found in the current scope.
+
+TypeError: Raised when an operation is performed on an object of an inappropriate type.
+
+ValueError: Raised when a function receives an argument of the correct type but an inappropriate value.
+
+IndexError: Raised when trying to access an index that is out of range in a sequence.
+
+KeyError: Raised when trying to access a key in a dictionary that doesn't exist.
+
+AttributeError: Raised when an attribute or method is not found for a particular object.
+
+ImportError: Raised when an import statement fails to find or load a module.
+
+FileNotFoundError: Raised when a file that a program tries to access does not exist.
+
+ZeroDivisionError: Raised when attempting to divide a number by zero.
+
+MemoryError: Raised when the program runs out of memory.
+
+IOError: Raised when an I/O operation, such as writing or reading a file, fails due to an input/output error.
+AssertionError: Raised when an assert statement fails.
+KeyboardInterrupt: Raised when the user interrupts the program execution (e.g., by pressing Ctrl+C).
+
+EOFError: Raised when the end of a file is reached without any input from the input() function.
+ArithmeticError: Base class for all errors related to arithmetic operations.

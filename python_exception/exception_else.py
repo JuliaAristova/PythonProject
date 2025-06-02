@@ -20,3 +20,24 @@ except:
   print("Something went wrong")
 else:
   print("Nothing went wrong")
+
+print("**************")
+while True:
+  try:
+    x = int(input("What's x? "))
+  except ValueError:
+    print("x is not an integer")
+  else:
+    break
+print(f"x is {x}")
+
+#minimized version
+while True:
+  try:
+    x = int(input("What's x? "))
+    break
+  except ValueError:
+    print("x is not an integer")
+
+print(f"x is {x}")
+

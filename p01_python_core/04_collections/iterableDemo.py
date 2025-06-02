@@ -2,6 +2,8 @@
 Iterables - an object/collection that can return its elements one at a time,
     allowing it to be iterated over in a loop
 '''
+for i in range(3):
+    print(i)
 
 # list
 numbers = [1, 2, 3, 4, 5]
@@ -14,6 +16,12 @@ for number in reversed(numbers):
     print(number, end=" - ")
 print()
 
+students = ["Hermione", "Harry", "Ron"]
+for student in students:
+    print(student)
+
+for i in range(len(students)):
+    print(i+1, students[i])
 # tuple
 numbers = (6,7,8,9,0)
 

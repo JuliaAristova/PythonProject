@@ -54,3 +54,31 @@ for key, value in capitals.items():
 
 capitals.clear()
 print(capitals)
+
+students_list = ["Hermione", "Harry", "Ron", "Draco"]
+houses_list = ["Gryffindor", "Gryffindor", "Gryffindor", "Slytherin"]
+
+students = {"Hermione": "Gryffindor",
+            "Harry": "Gryffindor",
+            "Ron": "Gryffindor",
+            "Draco": "Slitherin"
+            }
+print(students["Hermione"])
+print(students["Ron"])
+
+print("Iteration through dictionary")
+
+for student in students:
+    print(student)                                # prints keys = names
+    print(student, students[student], sep=", ")   # prints key and value
+
+print("**********************************")
+# list of dictionaries
+students_dict = [
+    {"name": "Hermione", "house": "Gryffindor", "patronus": "Otter"},
+    {"name": "Harry", "house": "Gryffindor","patronus": "Stag"},
+    {"name": "Ron", "house":  "Gryffindor", "patronus": "Jack Russell terrier"},
+    {"name": "Draco", "house": "Slitherin", "patronus": None}
+    ]
+for student in students_dict:
+    print(student["name"], student["house"], student["patronus"], sep=', ')
