@@ -11,7 +11,7 @@ age = 13
 temperature = 20
 user_role = "guest"
 
-print ("Positive" if num >0 else "Negative")
+print ("Positive" if num > 0 else "Negative")
 print("Even" if a%2 == 0 else "Odd")
 
 max_value = a if a > b else b

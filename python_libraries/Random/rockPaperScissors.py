@@ -1,4 +1,5 @@
-import random
+#import random
+from random import choice
 
 options = ('rock', 'paper', 'scissors')
 running = True
@@ -6,7 +7,8 @@ running = True
 while running:
 
     player = None
-    computer = random.choice(options)
+    #computer = random.choice(options) --> as we imported choice, random should be omitted
+    computer = choice(options)
 
     while player not in options:
         player = input("Enter a choice (rock, paper, scissors): ")

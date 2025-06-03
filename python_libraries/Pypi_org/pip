@@ -1,0 +1,4 @@
+pip - pacage management
+pip install cowsay
+pip install requests
+
