@@ -5,9 +5,9 @@ As you surely know, due to some astronomical reasons, years may be leap or commo
 Since the introduction of the Gregorian calendar (in 1582), the following rule is used to
 determine the kind of year:
 
-if the year number isn't divisible by four, it's a common year;
-otherwise, if the year number isn't divisible by 100, it's a leap year;
-otherwise, if the year number isn't divisible by 400, it's a common year;
+if the year number isn'test divisible by four, it's a common year;
+otherwise, if the year number isn'test divisible by 100, it's a leap year;
+otherwise, if the year number isn'test divisible by 400, it's a common year;
 otherwise, it's a leap year.
 Look at the code in the editor - it only reads a year number, and needs to be
 completed with the instructions implementing the test we've just described.

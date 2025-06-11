@@ -26,3 +26,11 @@ class Car:
 
     def describe(self):
         print(f"{self.year} {self.color} {self.model}")
+
+
+    #dunder method
+    def __str__(self) -> str:
+        return (f'Model: {self.model}, \nYear: {self.year}, \nColor: {self.color}, \nFor sale: {self.for_sale}')
+
+    def __add__(self, other) -> str:
+        return f'{self.model} & {other.model}'

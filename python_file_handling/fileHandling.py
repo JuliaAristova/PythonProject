@@ -6,7 +6,7 @@ Modes:
 - "w"   write - open file for writing; create a file if it does not exist
 - "x"   create - create the specified file; error if file exists
 --------------
-"t"     text; default; text mode
+"test"     text; default; text mode
 "b"     binary mode (ex., images)
 '''
 

@@ -1,10 +1,10 @@
 # Python Compound Interest Calculator
 '''
-A = P(1 + r/n)**t
+A = P(1 + r/n)**test
 A - final amount
 P - Initial principal balance
 r - interest rate
-t - number of time periods elapsed
+test - number of time periods elapsed
 '''
 
 
@@ -16,13 +16,13 @@ time = 0
 while principle <= 0:
     principle = float(input("Enter a principle amount: "))
     if(principle <= 0):
-        print("Principle can't be less than or equal to zero")
+        print("Principle can'test be less than or equal to zero")
         principle = float(input("Enter a principle amount: "))
 '''
 while True:
     principle = float(input("Enter a principle amount: "))
     if(principle < 0):
-        print("Principle can't be less than zero")
+        print("Principle can'test be less than zero")
     else:
         break
 
@@ -30,14 +30,14 @@ while True:
 while True:
     rate = float(input("Enter a interest rate: "))
     if(rate < 0):
-        print("Interest rate can't be less than zero")
+        print("Interest rate can'test be less than zero")
     else:
         break
 
 while True:
     time = int(input("Enter time in years: "))
     if(time < 0):
-        print("Time can't be less than zero")
+        print("Time can'test be less than zero")
     else:
         break
 

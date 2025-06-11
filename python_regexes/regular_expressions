@@ -1,0 +1,49 @@
+docs.python.org/3/library/re.html
+
+re.search(pattern, string, flags=0)
+re.match(pattern, string, flag= 0)          # do not specify begining and end ^ $
+re.fullmatch(pattern, string, flag= 0)
+
+url.removeprefix("https://twitter.com/")
+re.sub(pattern, repl, string, count=0, flag=0)
+re.split(pattern, repl, string, maxsplit=0, flag=0)
+re.findall(pattern, string, flags=0)
+
+re.IGNORECASE
+re.MULTILINE
+re.DOTALL
+
+patterns
+.           any character except a new line
+*           0 or more repetitions
++           1 or more repetitions
+?           0 or 1 repetition
+{m}         m repetition
+{m,n}       m-n repetition
+^           matches the start of the string
+$           matches the end of the string or just before the newline ar the end of the string
+[]          set of characters
+[^]         complementing the set - not
+A|B         either A or B
+( ... )     a group
+(?: ...)    non-capturing version
+
+
+\d      decimal digit
+\D      not a deciaml digit
+\s      white space character
+\S      not white space character
+\w      word character [a-zA-Z0-9_]
+\W      not word character
+
+re.search(r"^[^@].+@[^@].+\.edu$", email)
+(r              raw string
+"^              start of the string
+[^@]            anything but not @
++               one or more times
+@               ampersand
+[^@]            anything but not @
++               one or more times
+\.edu           .edu at the end
+$"              end of the string
+, email)

@@ -22,7 +22,7 @@ try:
     number = int(input("Enter a number (not 0): "))
     print(1/number)
 except ZeroDivisionError:
-    print("You can't divide by zero!")
+    print("You can'test divide by zero!")
 except ValueError:
     print("You did not enter a number")
 except Exception:

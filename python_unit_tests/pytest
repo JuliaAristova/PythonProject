@@ -1,0 +1,9 @@
+pytest - tool for unit testing
+
+pip install pytest
+docs.pytest.org
+
+terminal pytest file_name.py
+
+create test folder
+add file __init__.py --> to treat this folder as a package

@@ -9,7 +9,7 @@ def goodbye(name):
     print(f"Goodbye, {name}")
 
 # to run only main is called
-# when hello or goodbye are imported it won't be called
+# when hello or goodbye are imported it won'test be called
 
 if __name__ == '__main__':
     main()
