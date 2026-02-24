@@ -1,0 +1,7 @@
+Numerical:
+- Discrete data:  integers (the number of cars passing by)
+- Continious data: any number (price of an item, size of an item)
+
+Categorical: values cannot be measured up against each other (color; yes/now values)
+
+Ordinal: like caegorical but can be measured (school grades - A better thab B)
