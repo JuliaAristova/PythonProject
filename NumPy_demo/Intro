@@ -1,0 +1,7 @@
+NumPy
+- Python Library
+- To work with arrays (50x faster than traditional Puton lists) - ndarray
+- short for Numerical Python
+- has functions for working in domain of linear algebra, fourier transform, and matrices
+
+pip install numpy
